@@ -8,13 +8,13 @@ _To Load Dependencies_
 
 _To Load CSV_
 
-1. Load your `.csv file` into `MatchReader.fromCsv('<enter csv file path here>')` inside the `index.ts` file
-2. Select either `Summary.ConsoleReport('<enter data string here>')`
-   or `Summary.HtmlReport('<enter data string here>')`
+1. Load your `.csv file` into `MatchReader.fromCsv('enter csv file path here')` inside the `index.ts` file
+2. Select either `Summary.ConsoleReport('enter data string here')`
+   or `Summary.HtmlReport('enter data string here')`
 
 _To Build Output_
 
-1.  Cd into the source directory`(<wonder_stats>)`
-2.  Run `<npm start>` to execute the application
-3.  If `<ConsoleReport>` was selected, your command line will populate with data results
-4.  If `<HtmlReport>` was selected, a `<report.html>` file will output into the root of `wonder_stats`. This can be run from your `IDE` to showcase output from the `CSV`!
+1.  Cd into the source directory`(wonder_stats)`
+2.  Run `npm start` to execute the application
+3.  If `ConsoleReport` was selected, your command line will populate with data results
+4.  If `HtmlReport` was selected, a `report.html` file will output into the root of `wonder_stats`. This can be run from your `IDE` to showcase output from the `.csv file`
