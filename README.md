@@ -8,8 +8,7 @@ _To Load Dependencies_
 
 _To Load CSV_
 
-1. Load your `.csv file` into `MatchReader.fromCsv`
-   `('<enter csv file path here>')` inside `index.ts`
+1. Load your `.csv file` into `MatchReader.fromCsv('<enter csv file path here>')` inside the `index.ts` file
 2. Select either `Summary.ConsoleReport('<enter data string here>')`
    or `Summary.HtmlReport('<enter data string here>')`
 
